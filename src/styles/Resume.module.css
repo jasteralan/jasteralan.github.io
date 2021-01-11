@@ -1,0 +1,133 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 3rem;
+    background-color: white;
+}
+
+.container p {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.container svg {
+    position: relative;
+    top: 3px;
+}
+
+.header {
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header .avatar {
+    display: block;
+    margin: auto;
+    width: 30%;
+    max-width: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.header .connects {
+    display: flex;
+    justify-content: center;
+}
+
+.header .connects a {
+    width: 2rem;
+    height: 2rem;
+    margin: 5px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+}
+
+.header .connects .linkedin {
+    background-color: rgb(12, 91, 186);
+}
+
+.header .connects .linkedin svg {
+    top: 0;
+}
+
+.header .connects .github {
+    background-color: #222
+}
+
+.header .connects .github svg {
+    top: 2px;
+}
+
+.sec {
+    padding: 10px;
+}
+
+.sec h1 {
+    margin: 0.5rem 0;
+    font-weight: normal;
+}
+
+.profile .tags span {
+    display: inline-block;
+    color: rgb(227, 176, 74);
+    margin-right: 0.5rem;
+}
+
+.experience {}
+
+.experience>ul {
+    list-style: none;
+    padding-inline-start: 0;
+    padding-left: 0;
+}
+
+.experience>ul>li {
+    margin-bottom: 2rem;
+}
+
+.experience .position {
+    padding-left: 1rem;
+    border-left: 5px solid rgb(255, 214, 89);
+    font-size: 1.2rem;
+}
+
+.experience .company {
+    color: #888;
+    font-size: 1rem;
+}
+
+.experience .duration {
+    margin-left: 0.5rem;
+}
+
+.experience .desc {
+    padding: 0.2rem 0;
+}
+
+.experience .skill {
+    margin-top: 0.5rem;
+    padding-left: 0;
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+.edu {}
+
+.edu .edu_school {
+    font-size: 1.2rem;
+    margin-bottom: 0.5em;
+}
+
+.edu .edu_department {
+    color: #888;
+    font-size: 1.2rem;
+}
+
+.edu .edu_duration {
+    color: #888;
+}
