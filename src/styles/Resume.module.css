@@ -121,6 +121,18 @@
     margin-right: 0.5rem;
 }
 
+.profile .contactme {
+    margin-top: 1rem;
+}
+
+.profile .contactme span {
+    display: block;
+}
+
+.profile .contactme svg {
+    margin-right: 0.5rem;
+}
+
 .experience {}
 
 .experience>ul {
@@ -145,6 +157,10 @@
     font-size: 1rem;
 }
 
+.zhhans .experience .company {
+    font-size: 0.9rem;
+}
+
 .experience .duration {
     margin-left: 0.5rem;
 }
@@ -157,7 +173,33 @@
     margin-top: 0.5rem;
     padding-left: 0;
     padding-inline-start: 0;
+    color: rgb(227, 176, 74);
     list-style: none;
+}
+
+@media screen and (min-width: 800px) {
+    .experience>ul>li {
+        display: flex;
+    } 
+
+    .experience .position {
+        margin-bottom: 0;
+        padding-left: 0;
+        border-left: none;
+        font-size: 1.1rem;
+        flex-grow: 1;
+        white-space: pre;
+    }
+
+    .experience .duration {
+        display: block;
+        margin-left: 0rem;
+    }
+
+    .experience .desc {
+        padding: 0;
+        width: 570px;
+    }
 }
 
 .edu {}
