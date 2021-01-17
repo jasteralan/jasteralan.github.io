@@ -1,0 +1,105 @@
+.header {
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 85%);
+    
+    background-blend-mode: overlay;
+    animation: ov 20s ease infinite;
+}
+
+.header .avatar {
+    display: block;
+    margin: auto;
+    width: 30%;
+    max-width: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.header .connects {
+    display: flex;
+    justify-content: center;
+}
+
+.header .connects a {
+    width: 2rem;
+    height: 2rem;
+    margin: 5px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+}
+
+.header .connects .linkedin {
+    background-color: rgb(12, 91, 186);
+}
+
+.header .connects .linkedin svg {
+    top: 0;
+}
+
+.header .connects .github {
+    background-color: #222
+}
+
+.header .connects .github svg {
+    top: 2px;
+}
+
+.header__print {
+    display: none;
+
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header__print h1 {
+    margin: 0 0;
+    font-weight: 500;
+}
+
+.header__print h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #888;
+}
+
+.header__print ul {
+    list-style: none;
+    margin: 0;
+}
+
+.header__print ul li ~ li {
+    margin-top: 5px;
+}
+
+.header__print ul li svg {
+    margin-right: 5px;
+}
+
+@media print {
+    .header.header__hideonprint {
+        display: none;
+    }
+
+    .header__print {
+        display: flex;
+    }
+}
+
+@keyframes ov {
+    0% {
+        background-color: rgba(10, 100, 200, 0);
+    }
+    50% {
+        background-color: rgba(10, 100, 200, .4);
+    }
+    100% {
+        background-color: rgba(10, 100, 200, 0);
+    }
+}
