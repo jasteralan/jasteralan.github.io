@@ -20,8 +20,8 @@ export default function Experience() {
 
                     <ul className={styles.points}>
                         <li>Gained active users by 20% by implementing more than 20 promotion SPAs.</li>
-                        <li>Refined CI flow by using Docker for containerization, and Jenkins for automate deployment.</li>
-                        <li>Participated in scrum teams across Taipei, Vegas, Vancouver offices, implementing widgets used in HTML5 games.</li>
+                        <li>Refined CI flow by using Docker for containerization, and Jenkins for automating deployment.</li>
+                        <li>Participated in Scrum teams across Taipei, Vegas, Vancouver offices, implementing widgets used in HTML5 games.</li>
                         <li>Skills : HTML5, CSS3(SCSS), Javascript(ES6), React, Redux / XState (State Management), React-Spring (Animation), Webpack, Docker, Jenkins</li>
                     </ul>
                 </li>
@@ -35,7 +35,7 @@ export default function Experience() {
                         </div>
                     </div>
                     <ul className={styles.points}>
-                        <li>Developed a management sysment for work assignment and finance report generation, decreasing redundent cost on digital advertising.</li>
+                        <li>Developed a management system for work assignment and finance report generation, decreasing redundant costs on digital advertising.</li>
                         <li>Introduced scrum and kanban to improve teamwork.</li>
                         <li>Skills : HTML5, CSS3, Javascript(ES6), Vue, Webpack, PHP7, Laravel, Mysql, Nginx</li>
                     </ul>    
@@ -50,7 +50,7 @@ export default function Experience() {
                         </div>
                     </div>
                     <ul className={styles.points}>
-                        <li>Developed HWTrek – an collaborative platform for hardware innovation, helping start up to boost from idea to the implementation.</li>
+                        <li>Developed HWTrek – a collaborative platform for hardware innovation, helping start-ups to boost from idea to implementation.</li>
                         <li>Engaged in a scrum team to plan the HWTrek MVP.</li>
                         <li>Skills : HTML5, CSS3, Javascript, React, Redux, Grunt, PHP7, Mysql, Jenkins, AWS</li>
                     </ul>
@@ -65,8 +65,8 @@ export default function Experience() {
                         </div>
                     </div>
                     <ul className={styles.points}>
-                        <li>Cooperated with designer to recreate – iTry (a website to send out free product samples).</li>
-                        <li>Revamped iTry CMS and API to increase efficiency of publishing new roduct samples.</li>
+                        <li>Cooperated with a designer to recreate – iTry (a website to send out free product samples).</li>
+                        <li>Revamped iTry CMS and API to increase the efficiency of publishing new product samples.</li>
                         <li>Skills : HTML5, CSS3, Javascript, Jquery, PHP, Mysql</li>
                     </ul>
                 </li>
