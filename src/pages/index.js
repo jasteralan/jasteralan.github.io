@@ -37,12 +37,12 @@ export default function Resume() {
                             <li>SCSS (CSS pre-processor)</li>
                             <li>JavaScript (ES6)</li>
                             <li>React</li>
-                            <li>Vue</li>
+                            <li>Redux</li>
                             <li>Xstate</li>
                             <li>Webpack</li>
                             <li>Docker</li>
                             <li>Jenkins</li>
-                            <li>PHP7</li>
+                            <li>PHP7 (Laravel)</li>
                         </ul>
                     </section>
 

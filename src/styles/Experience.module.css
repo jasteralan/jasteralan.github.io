@@ -34,14 +34,17 @@
     padding: 0.2rem 0;
 }
 
-.experience .skill {
+/* .experience .skill {
     margin-top: 0.5rem;
     padding-left: 0;
     padding-inline-start: 0;
     color: rgb(227, 176, 74);
     list-style: none;
-}
+} */
 
+.experience .skill {
+    color: rgb(227, 176, 74);
+}  
 
 @media screen and (min-width: 800px) {
     .experience>ul>li {
@@ -70,7 +73,12 @@
     .experience .points {
         padding: 0;
         width: 560px;
-    }    
+    }  
+    
+    .experience.zhhans .points {
+        padding: 0;
+        width: 530px;
+    }
 }
 
 @media print {
@@ -100,5 +108,10 @@
     .experience .points {
         padding: 0;
         width: 560px;
-    }    
+    }   
+    
+    .experience.zhhans .points {
+        padding: 0;
+        width: 530px;
+    }   
 }

@@ -20,29 +20,30 @@ export default function Resume() {
                     <Header />
     
                     <section className={`${styles.sec} ${styles.profile}`}>
-                        <h1><FiUser /> PROFILE</h1>
                         <article>
-                            <p>嗨，我是 Jaster，3年前端、4年全端的工程師 </p>
-                            <p>於 3 間新創團隊工作過，對於敏捷開發與打造最小可行產品有所經驗；團隊運作模式多為 Scrum，也曾與 PM 合作共同導入看板方法進行開發。</p>
-                            <p>對於開發技術頗有熱情，平常會利用時間跟上最新前端新知。致力於開發直覺好用、手機友善的網頁應用，目前是以 React 為主；後端的經驗幫助我在介接 API 時更順暢，部署維運方面傾向容器化包裝與自動化部屬。</p>
+                            <p>嗨，我是 Jaster，3年前端、4年的全端經驗</p>
 
-                            <div className={styles.tags}>
-                                <span>#HTML5</span>
-                                <span>#CSS3(SCSS)</span>
-                                <span>#JavaScript(ES6)</span>
-                                <span>#React</span>
-                                <span>#Redux</span>
-                                <span>#XState</span>
-                                <span>#NextJS</span>
-                                <span>#Webpack</span>
-                                <span>#Docker</span>
-                                <span>#Jenkins</span>
-                                <span>#PHP7</span>
-                                <span>#Laravel</span>
-                                <span>#MySQL</span>
-                                <span>#JIRA</span>
-                            </div>
+                            <p>作為前端工程師，致力於開發直覺好用且手機友善的應用，優化介面與載入速度，並持續優化部署流程。</p>
+                            <p>對於敏捷開發的運作熟悉；在前 3 間新創團隊中，對打造與規劃最小可行產品有所經驗。</p>
+                            <p>對於開發有興趣與熱情，總是願意嘗試新的技術與領域。</p>
                         </article>
+                    </section>
+
+                    <section className={`${styles.skills}`}>
+                        <h1><FiFeather /> SKILLS</h1>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>SCSS (CSS pre-processor)</li>
+                            <li>JavaScript (ES6)</li>
+                            <li>React</li>
+                            <li>Redux</li>
+                            <li>Xstate</li>
+                            <li>Webpack</li>
+                            <li>Docker</li>
+                            <li>Jenkins</li>
+                            <li>PHP7 (Laravel)</li>
+                        </ul>
                     </section>
 
                     <ExperienceZHhans />
