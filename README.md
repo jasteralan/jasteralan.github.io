@@ -1,4 +1,8 @@
-# 在 GitHub 上用 Next.js 建立靜態網站
+# 履歷網站 2021
+
+<img width="486" alt="cap" src="https://github.com/jasteralan/jasteralan.github.io/assets/3198339/89b1a0c0-023f-475c-ad39-9f9e04a45660">
+
+## 在 GitHub 上用 Next.js 建立靜態網站
 
 基本步驟看這篇 [Deploy Your Next.js App on GitHub Pages Using the GitHub Action](https://medium.com/javascript-in-plain-english/deploy-your-next-js-app-on-github-pages-using-the-github-action-525271137409) ，流程是在每次 push 上 master 後會觸發 GitHub Action 跑 `next build` 和 `next export`，再把產生出來的 `out` 資料夾裡的內容放到 `gh-pages` 的 branch。
 
